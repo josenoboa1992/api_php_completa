@@ -7,6 +7,7 @@ use Firebase\JWT\JWT;
 
 
 class Security{
+    private static $jwt_data;
     final public  static function secretKey(){
         $dotenv=Dotenv::createImmutable(dirname(__DIR__,2));
         $dotenv->load();
@@ -36,5 +37,27 @@ class Security{
 
         $jwt=JWT::encode($payLoad,$key,'HS256');
         return $jwt;
+    }
+
+    final  public  static  function validateTokenJwt(array $token, string $key){
+        if (!isset($token['Authorization'])){
+            die(json_encode(ResponseHttp::status400()));
+            exit;
+        }
+        try {
+            $jwt=explode(" ",$token['Authorization']);
+            $data=JWT::encode($jwt[1],$key,'HS256');
+            self::$jwt_data=$data;
+            return $data;
+            exit;
+        }catch (\Exception $e){
+            error_log('Token invalido o expirado');
+            die(json_encode(ResponseHttp::status401('Token invalido o expirado')));
+        }
+    }
+
+    final public  static  function getDataJwt(){
+        $jwt_decoded_array=json_decode(json_encode(self::$jwt_data),true);
+        return $jwt_decoded_array;
     }
 }
