@@ -9,10 +9,10 @@ public static $message=array(
     'message'=>''
 );
 
-public static function status200(string $res='ok'){
+public static function status200( $res):array{
     http_response_code(200);
     self::$message['status']='ok';
-    self::$message['message']=$res;
+    self::$message['message']= $res;
     return self::$message;
 }
 

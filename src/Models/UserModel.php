@@ -43,6 +43,52 @@ class UserModel extends conectionDB {
     final   public static function setIDToken(string $IDToken){self::$IDToken=$IDToken;}
     final public static  function  setDate(string $fecha){self::$fecha=$fecha;}
 
+    final public  static  function login(){
+        try {
+            $con=self::getConnection()->prepare("SELECT * FROM usuario WHERE correo=:correo");
+            $con->execute([
+                ':correo'=>self::getEmail()
+            ]);
+            if ($con->rowCount()==0){
+               return ResponseHttp::status400('Usuario o password invalido');
+            }else{
+                foreach ($con as $res){
+
+                    if (Security::validatePassword(self::getPassword(),$res['password'])){
+                        $payLoad=['IDToken'=>$res['IDToken']];
+                        $token=Security::createTokenJwt(Security::secretKey(),$payLoad);
+                        $data=[
+                            'name'=>$res['nombre'],
+                            'rol'=>$res['rol'],
+                            'toke'=>$token
+                        ];
+
+                        return ResponseHttp::status200($data);
+                        exit;
+                    }else{
+
+                        return ResponseHttp::status400('Usuario o password invalido');
+                    }
+                }
+            }
+        }catch (\PDOException $e){
+                error_log('UserModel::Login->'.$e);
+                die(json_encode(ResponseHttp::status500()));
+        }
+    }
+
+    final  public static function getAll(){
+        try {
+            $con=self::getConnection();
+            $query=$con->prepare("SELECT * FROM usuario");
+            $query->execute();
+            $rs['data']=$query->fetchAll(\PDO::FETCH_ASSOC);
+            return $rs;
+        }catch (\PDOException   $e){
+            error_log('UserModel::getAll->'.$e);
+            die(json_encode(ResponseHttp::status500('No se pueden obtener los datos')));
+        }
+    }
     final public static function post(){
         if (Sql::exists("SELECT dni FROM usuario WHERE dni=:dni",":dni",self::getDni())){
             return ResponseHttp::status401('El DNI ya esta registrado');
@@ -50,7 +96,7 @@ class UserModel extends conectionDB {
             return  ResponseHttp::status400("El correo ya esta registrado");
         }else{
             self::setIDToken(hash('sha512',self::getDni().self::getEmail()));
-            self::setDate(date("d-m-y h-i-s"));
+            self::setDate(date("d-m-y h:i:s"));
 
             try {
                 $con=self::getConnection();

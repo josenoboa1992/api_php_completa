@@ -10,6 +10,7 @@ $data=json_decode(file_get_contents("php://input"),true);
 $header=getallheaders();
 
 $app= new UserController($method,$route,$params,$data,$header);
-
+$app->getAll('user/');
 $app->post('user/');
+
 echo json_encode(ResponseHttp::status400());

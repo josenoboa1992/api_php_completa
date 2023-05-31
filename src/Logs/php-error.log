@@ -260,3 +260,806 @@ Stack trace:
 #2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
 #3 {main}
   thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[22-May-2023 23:54:38 America/Santo_Domingo] PHP Warning:  Undefined array key "db" in /opt/lampp/htdocs/api/src/Db/dataDB.php on line 10
+[22-May-2023 23:54:38 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:20
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(20): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+[22-May-2023 23:56:32 America/Santo_Domingo] PHP Warning:  Undefined array key "db" in /opt/lampp/htdocs/api/src/Db/dataDB.php on line 10
+[22-May-2023 23:56:32 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\Db\PDO" not found in /opt/lampp/htdocs/api/src/Db/conectionDB.php:20
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#1 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/api/src/Db/conectionDB.php on line 20
+[22-May-2023 23:58:05 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\Db\PDO" not found in /opt/lampp/htdocs/api/src/Db/conectionDB.php:20
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#1 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/api/src/Db/conectionDB.php on line 20
+[23-May-2023 00:00:01 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+[23-May-2023 00:01:20 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+[23-May-2023 00:08:33 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+[23-May-2023 00:11:33 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Routes/auth.php(6): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+[24-May-2023 21:15:40 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:18:19 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:18:35 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:18:54 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:19:11 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:20:01 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:11
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 11
+[24-May-2023 21:23:51 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\controllers\UserController" not found in /opt/lampp/htdocs/api/src/Routes/user.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/api/public/index.php(22): require()
+#1 {main}
+  thrown in /opt/lampp/htdocs/api/src/Routes/user.php on line 12
+[24-May-2023 21:30:05 America/Santo_Domingo] PHP Warning:  Undefined array key "rol" in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:30:05 America/Santo_Domingo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:30:05 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\config\ResponseHttp" not found in /opt/lampp/htdocs/api/src/Controllers/UserController.php:40
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#1 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 40
+[24-May-2023 21:33:55 America/Santo_Domingo] PHP Warning:  Undefined array key "rol" in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:33:55 America/Santo_Domingo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:33:55 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\config\ResponseHttp" not found in /opt/lampp/htdocs/api/src/Controllers/UserController.php:40
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#1 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 40
+[24-May-2023 21:36:15 America/Santo_Domingo] PHP Warning:  Undefined array key "rol" in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:36:15 America/Santo_Domingo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:37:03 America/Santo_Domingo] PHP Warning:  Undefined array key "rol" in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:37:03 America/Santo_Domingo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 39
+[24-May-2023 21:37:46 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\db\conectionDB" not found in /opt/lampp/htdocs/api/src/Models/UserModel.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/composer/ClassLoader.php(582): include()
+#1 /opt/lampp/htdocs/api/vendor/composer/ClassLoader.php(433): Composer\Autoload\{closure}('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(46): Composer\Autoload\ClassLoader->loadClass('App\\Models\\User...')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 10
+[24-May-2023 21:39:45 America/Santo_Domingo] PHP Warning:  Undefined array key "dani" in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 22
+[24-May-2023 21:39:45 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\UserModel::$dni of type string in /opt/lampp/htdocs/api/src/Models/UserModel.php:22
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Controllers/UserController.php(46): App\Models\UserModel->__construct(Array)
+#1 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#2 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 22
+[24-May-2023 21:40:28 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Db/Sql.php(13): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/src/Models/UserModel.php(47): App\Db\Sql::exists('SELECT dni FROM...', ':dni', '456465')
+#3 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#4 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#5 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#6 {main}
+[24-May-2023 21:42:36 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Db/Sql.php(13): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/src/Models/UserModel.php(47): App\Db\Sql::exists('SELECT dni FROM...', ':dni', '456465')
+#3 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#4 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#5 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#6 {main}
+[24-May-2023 21:59:03 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Db/Sql.php(13): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/src/Models/UserModel.php(47): App\Db\Sql::exists('SELECT dni FROM...', ':dni', '456465')
+#3 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#4 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#5 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#6 {main}
+[24-May-2023 22:02:00 America/Santo_Domingo] Error en la conexion: PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in /opt/lampp/htdocs/api/src/Db/conectionDB.php:21
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/conectionDB.php(21): PDO->__construct('127.0.0.1', 'root', Object(SensitiveParameterValue), Array)
+#1 /opt/lampp/htdocs/api/src/Db/Sql.php(13): App\Db\conectionDB::getConnection()
+#2 /opt/lampp/htdocs/api/src/Models/UserModel.php(47): App\Db\Sql::exists('SELECT dni FROM...', ':dni', '456465')
+#3 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#4 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#5 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#6 {main}
+[24-May-2023 22:16:54 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:16:54 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:16:54 America/Santo_Domingo] Sql::exists->PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /opt/lampp/htdocs/api/src/Db/Sql.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/Sql.php(15): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/api/src/Models/UserModel.php(49): App\Db\Sql::exists('SELECT correo F...', ':correo', 'prueba@gmail.co...')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[24-May-2023 22:16:54 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "App\config\ResponseHttp" not found in /opt/lampp/htdocs/api/src/Db/Sql.php:22
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(49): App\Db\Sql::exists('SELECT correo F...', ':correo', 'prueba@gmail.co...')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Db/Sql.php on line 22
+[24-May-2023 22:19:51 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:19:51 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:19:51 America/Santo_Domingo] Sql::exists->PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /opt/lampp/htdocs/api/src/Db/Sql.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/Sql.php(15): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/api/src/Models/UserModel.php(49): App\Db\Sql::exists('SELECT correo F...', ':correo', 'prueba@gmail.co...')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[24-May-2023 22:22:55 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:22:55 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:22:55 America/Santo_Domingo] Sql::exists->PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /opt/lampp/htdocs/api/src/Db/Sql.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/Sql.php(15): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/api/src/Models/UserModel.php(50): App\Db\Sql::exists('SELECT correo F...', ':correo', 'prueba@gmail.co...')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[24-May-2023 22:23:21 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:23:21 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:23:21 America/Santo_Domingo] Sql::exists->PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /opt/lampp/htdocs/api/src/Db/Sql.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Db/Sql.php(15): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/api/src/Models/UserModel.php(50): App\Db\Sql::exists('SELECT correo F...', ':correo', 'prueba@gmail.co...')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(47): App\Models\UserModel::post()
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[24-May-2023 22:26:49 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:26:49 America/Santo_Domingo] Conexion exitosa
+[24-May-2023 22:26:49 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:02:30 America/Santo_Domingo] PHP Warning:  file_get_contents(): Invalid php:// URL specified in /opt/lampp/htdocs/api/src/Routes/auth.php on line 10
+[27-May-2023 15:02:30 America/Santo_Domingo] PHP Warning:  file_get_contents(php://get): Failed to open stream: operation failed in /opt/lampp/htdocs/api/src/Routes/auth.php on line 10
+[27-May-2023 15:19:34 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:19:34 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validatePassword(): Argument #2 ($pwh) must be of type string, array given, called in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 56 and defined in /opt/lampp/htdocs/api/src/Config/Security.php:22
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(56): App\Config\Security::validatePassword('12345678', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(42): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 22
+[27-May-2023 15:29:02 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:29:02 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: App\Config\Security::validatePassword(): Argument #2 ($pwh) must be of type string, array given, called in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 57 and defined in /opt/lampp/htdocs/api/src/Config/Security.php:22
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(57): App\Config\Security::validatePassword('12345678', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(41): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 22
+[27-May-2023 15:30:01 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:30:01 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: App\Config\ResponseHttp::status200(): Argument #1 ($res) must be of type string, array given, called in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 65 and defined in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(65): App\Config\ResponseHttp::status200(Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(41): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php on line 12
+[27-May-2023 15:32:54 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:32:54 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: App\Config\ResponseHttp::status200(): Argument #1 ($res) must be of type string, array given, called in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 66 and defined in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(66): App\Config\ResponseHttp::status200(Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(41): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php on line 12
+[27-May-2023 15:34:49 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:34:49 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: App\Config\ResponseHttp::status200(): Argument #1 ($res) must be of type string, array given, called in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 66 and defined in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(66): App\Config\ResponseHttp::status200(Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(41): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/ResponseHttp.php on line 12
+[27-May-2023 15:37:09 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:38:50 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:40:15 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:40:15 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /opt/lampp/htdocs/api/src/Models/UserModel.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(65): json_decode(Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(41): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 65
+[27-May-2023 15:53:10 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:53:46 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:58:48 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:59:19 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:59:19 America/Santo_Domingo] password invalidate
+[27-May-2023 15:59:29 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:59:29 America/Santo_Domingo] password invalidate
+[27-May-2023 15:59:59 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 15:59:59 America/Santo_Domingo] password invalidate
+[27-May-2023 16:01:09 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:01:09 America/Santo_Domingo] password invalidate
+[27-May-2023 16:01:22 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:01:22 America/Santo_Domingo] password invalidate
+[27-May-2023 16:01:30 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:01:43 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:01:43 America/Santo_Domingo] password invalidate
+[27-May-2023 16:05:53 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:05:54 America/Santo_Domingo] password invalidate
+[27-May-2023 16:06:35 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:06:35 America/Santo_Domingo] password invalidate
+[27-May-2023 16:08:17 America/Santo_Domingo] PHP Parse error:  syntax error, unexpected token ")" in /opt/lampp/htdocs/api/src/Models/UserModel.php on line 60
+[27-May-2023 16:08:37 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:08:37 America/Santo_Domingo] password invalidate
+[27-May-2023 16:09:04 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:09:04 America/Santo_Domingo] password invalidate
+[27-May-2023 16:11:18 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:11:18 America/Santo_Domingo] password invalidate
+[27-May-2023 16:18:14 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:18:15 America/Santo_Domingo] password invalidate
+[27-May-2023 16:18:43 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:18:43 America/Santo_Domingo] password invalidate
+[27-May-2023 16:18:55 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:18:55 America/Santo_Domingo] password invalidate
+[27-May-2023 16:19:01 America/Santo_Domingo] Conexion exitosa
+[27-May-2023 16:19:01 America/Santo_Domingo] password invalidate
+[27-May-2023 16:19:09 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:27:56 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:27:56 America/Santo_Domingo] password invalidate
+[28-May-2023 21:28:13 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:28:13 America/Santo_Domingo] password invalidate
+[28-May-2023 21:28:33 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:28:33 America/Santo_Domingo] password invalidate
+[28-May-2023 21:28:47 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:32:09 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:32:22 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:36:32 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 21:38:28 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 21:39:11 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 21:46:33 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:47:16 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:48:08 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:04 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:19 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:19 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:36 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:36 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:49:36 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 21:52:32 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 21:53:28 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 21:54:15 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:46:42 America/Santo_Domingo] Conexion exitosa
+[28-May-2023 23:51:29 America/Santo_Domingo] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /opt/lampp/htdocs/api/src/Config/Security.php on line 50
+[28-May-2023 23:52:05 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:52:28 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:53:09 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:53:11 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:53:45 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:54:14 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[28-May-2023 23:54:43 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 49 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', 'HS256')
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[29-May-2023 00:11:39 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[29-May-2023 00:11:41 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #1 ($payload) must be of type array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 50 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(50): Firebase\JWT\JWT::encode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[29-May-2023 00:16:05 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:20:37 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:21:32 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:21:43 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:21:54 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:22:31 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:22:33 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:22:40 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:24:01 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:25:09 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:25:23 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:26:15 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:26:21 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:27:03 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:28:46 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:29:14 America/Santo_Domingo] Token invalido o expirado
+[29-May-2023 00:29:51 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" empty, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:443
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', NULL)
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:38:18 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" empty, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:443
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', NULL)
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:38:27 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:38:27 America/Santo_Domingo] PHP Fatal error:  Uncaught TypeError: Firebase\JWT\JWT::encode(): Argument #5 ($head) must be of type ?array, string given, called in /opt/lampp/htdocs/api/src/Config/Security.php on line 38 and defined in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:188
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Config/Security.php(38): Firebase\JWT\JWT::encode(Array, '1e1eb9c340ed173', 'HS256', NULL, '1e1eb9c340ed173')
+#1 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#3 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php on line 188
+[29-May-2023 00:39:44 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:40:13 America/Santo_Domingo] Token invalido o expiradoDomainException: Syntax error, malformed JSON in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:497
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(357): Firebase\JWT\JWT::handleJsonError(4)
+#1 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(111): Firebase\JWT\JWT::jsonDecode('\xC8\x9D\x1E\\\x08\x8E\x88\x92\x95\xD5\x08\x8B\x08\x98[...')
+#2 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::decode('yJ0eXAiOiJKV1Qi...', '1e1eb9c340ed173', Array)
+#3 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#4 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#5 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#6 {main}
+[29-May-2023 00:45:18 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:45:54 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" empty, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:443
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', NULL)
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(49): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:51:34 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:52:16 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', 'my_key_id')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(55): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:54:58 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', 'my_key_id')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(56): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:55:00 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', 'my_key_id')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(56): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:55:35 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', 'my_key_id')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(55): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 00:56:26 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:56:35 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:56:52 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:56:54 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:56:55 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:57:07 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 00:57:29 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '1685336227')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(56): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 01:01:44 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:02:12 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '1685336504')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(56): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, 1685336532)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 01:06:55 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:07:23 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" empty, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:443
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', NULL)
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(58): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, NULL)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 01:08:39 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:09:02 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '1685336919')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(58): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, NULL)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 01:14:41 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:14:41 America/Santo_Domingo] PHP Fatal error:  Constant expression contains invalid operations in /opt/lampp/htdocs/api/src/Config/Security.php on line 11
+[29-May-2023 01:26:07 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:26:35 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(63): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 01:29:16 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:39:01 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:39:01 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "Redis" not found in /opt/lampp/htdocs/api/src/Config/Security.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 37
+[29-May-2023 01:41:00 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:41:00 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "Redis" not found in /opt/lampp/htdocs/api/src/Config/Security.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 37
+[29-May-2023 01:41:58 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:41:58 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "Redis" not found in /opt/lampp/htdocs/api/src/Config/Security.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 37
+[29-May-2023 01:42:25 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:42:25 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Class "Redis" not found in /opt/lampp/htdocs/api/src/Config/Security.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 37
+[29-May-2023 01:45:52 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:45:52 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Config\apcu_store() in /opt/lampp/htdocs/api/src/Config/Security.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 38
+[29-May-2023 01:49:52 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:49:52 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Config\apcu_store() in /opt/lampp/htdocs/api/src/Config/Security.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 38
+[29-May-2023 01:51:28 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 01:51:28 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Config\apcu_store() in /opt/lampp/htdocs/api/src/Config/Security.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(59): App\Config\Security::createTokenJwt('1e1eb9c340ed173', Array)
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(43): App\Models\UserModel::login()
+#2 /opt/lampp/htdocs/api/src/Routes/auth.php(14): App\Controllers\UserController->getLogin('auth/prueba@gma...')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/api/src/Config/Security.php on line 38
+[29-May-2023 01:52:00 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:02:38 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:02:49 America/Santo_Domingo] PHP Warning:  Undefined array key "valorkid" in /opt/lampp/htdocs/api/src/Config/Security.php on line 59
+[29-May-2023 02:02:49 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(66): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:03:19 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:03:27 America/Santo_Domingo] PHP Warning:  Undefined array key "valorkid" in /opt/lampp/htdocs/api/src/Config/Security.php on line 60
+[29-May-2023 02:03:27 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(67): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:04:21 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:04:27 America/Santo_Domingo] PHP Warning:  Undefined array key "valorkid" in /opt/lampp/htdocs/api/src/Config/Security.php on line 62
+[29-May-2023 02:04:27 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:04:28 America/Santo_Domingo] PHP Warning:  Undefined array key "valorkid" in /opt/lampp/htdocs/api/src/Config/Security.php on line 62
+[29-May-2023 02:04:28 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:04:29 America/Santo_Domingo] PHP Warning:  Undefined array key "valorkid" in /opt/lampp/htdocs/api/src/Config/Security.php on line 62
+[29-May-2023 02:04:29 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:07:19 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:07:24 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '6474376fa96a5')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array)
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:08:36 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:08:55 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '64744164535a3')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, '64744164535a3')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:08:58 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '64744164535a3')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, '64744164535a3')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:09:58 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '64744164535a3')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', '64744164535a3')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:12:28 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:12:28 America/Santo_Domingo] PHP Warning:  Undefined array key 2 in /opt/lampp/htdocs/api/src/Config/Security.php on line 55
+[29-May-2023 02:12:45 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" empty, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:443
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', NULL)
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', '6474424cd1ca7')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:13:56 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:14:13 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '647442a4c7fab')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(69): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', '647442a4c7fab')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:16:32 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:17:01 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '647443409cf44')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(67): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, '647443409cf44')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:18:54 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:19:13 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '647443ceb8698')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(67): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', '1e1eb9c340ed173', Array, '647443ceb8698')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[29-May-2023 02:21:12 America/Santo_Domingo] Conexion exitosa
+[29-May-2023 02:21:39 America/Santo_Domingo] Token invalido o expiradoUnexpectedValueException: "kid" invalid, unable to lookup correct key in /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php:452
+Stack trace:
+#0 /opt/lampp/htdocs/api/vendor/firebase/php-jwt/src/JWT.php(133): Firebase\JWT\JWT::getKey('1e1eb9c340ed173', '647444585c1f0')
+#1 /opt/lampp/htdocs/api/src/Config/Security.php(67): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', '1e1eb9c340ed173', Array, '647444585c1f0')
+#2 /opt/lampp/htdocs/api/src/Controllers/UserController.php(51): App\Config\Security::validateTokenJwt(Array, '1e1eb9c340ed173')
+#3 /opt/lampp/htdocs/api/src/Routes/user.php(14): App\Controllers\UserController->post('user/')
+#4 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#5 {main}
+[30-May-2023 22:21:37 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:01 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:12 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:12 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:20 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:20 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:22:20 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 22:53:02 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:01:48 America/Santo_Domingo] PHP Fatal error:  Uncaught Error: Undefined constant App\Models\UserModel::getAll in /opt/lampp/htdocs/api/src/Controllers/UserController.php:53
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Routes/user.php(13): App\Controllers\UserController->getAll('user/')
+#1 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/api/src/Controllers/UserController.php on line 53
+[30-May-2023 23:02:36 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:02:36 America/Santo_Domingo] UserModel::getAll->PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.usuarios' doesn't exist in /opt/lampp/htdocs/api/src/Models/UserModel.php:84
+Stack trace:
+#0 /opt/lampp/htdocs/api/src/Models/UserModel.php(84): PDOStatement->execute()
+#1 /opt/lampp/htdocs/api/src/Controllers/UserController.php(53): App\Models\UserModel::getAll()
+#2 /opt/lampp/htdocs/api/src/Routes/user.php(13): App\Controllers\UserController->getAll('user/')
+#3 /opt/lampp/htdocs/api/public/index.php(22): require('/opt/lampp/htdo...')
+#4 {main}
+[30-May-2023 23:04:23 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:06:53 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:06:53 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:06:53 America/Santo_Domingo] Conexion exitosa
+[30-May-2023 23:07:28 America/Santo_Domingo] Conexion exitosa

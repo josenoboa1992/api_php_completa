@@ -4,6 +4,7 @@ namespace App\Config;
 
 use Dotenv\Dotenv;
 use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 
 
 class Security{
@@ -19,39 +20,44 @@ class Security{
         return $pass;
     }
 
-    final public  static  function  validatePassword(String $paw,string $pwh){
+    final public  static  function  validatePassword(string $paw,string $pwh){
         if (password_verify($paw,$pwh)){
             return true;
-        }else{
-            return  error_log('password invalidate');
+        } else {
+             error_log('password invalidate');
             return false;
         }
     }
 
-    final  public static  function  createTokenJwt(string $key,array $data){
-        $payLoad=array(
-            "iat"=>time(),
-            "exp"=>time()+(60),
-            "data"=>$data
+    final public static function createTokenJwt(string $key, array $data) {
+        $payload = array(
+            'iat' => time(),
+            'exp' => time() + (60 * 60),
+            'data' => $data
         );
 
-        $jwt=JWT::encode($payLoad,$key,'HS256');
+
+        $jwt = JWT::encode($payload, $key, 'HS256');
         return $jwt;
     }
 
-    final  public  static  function validateTokenJwt(array $token, string $key){
-        if (!isset($token['Authorization'])){
-            die(json_encode(ResponseHttp::status400()));
+    final public static function validateTokenJwt($token, string $key) {
+        if (!isset($token['Authorization'])) {
+            die(json_encode(ResponseHttp::status400('Sin autorizacion')));
             exit;
         }
+        if (empty($token['Authorization'])){
+            die(json_encode(ResponseHttp::status400('Su Autorizacion es invalida')));
+        }
         try {
-            $jwt=explode(" ",$token['Authorization']);
-            $data=JWT::encode($jwt[1],$key,'HS256');
-            self::$jwt_data=$data;
+            $jwt = explode(" ", $token['Authorization']);
+            $data = JWT::decode($jwt[1],new Key($key,'HS256'));
+
+            self::$jwt_data = $data;
             return $data;
             exit;
-        }catch (\Exception $e){
-            error_log('Token invalido o expirado');
+        } catch (\Exception $e) {
+            error_log('Token invalido o expirado' . $e);
             die(json_encode(ResponseHttp::status401('Token invalido o expirado')));
         }
     }

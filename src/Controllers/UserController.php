@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Config\ResponseHttp;
+use App\Config\Security;
 use App\Models\UserModel;
 
 class UserController{
@@ -24,9 +25,39 @@ class UserController{
         $this->method = $method;
     }
 
+
+    final public  function  getLogin(string $endpoint){
+
+        if ($this->method=='get' && $endpoint==$this->route){
+
+            $email=strtolower($this->params[1]);
+            $password=$this->params[2];
+
+            if (empty($email)|| empty($password)){
+                echo json_encode(ResponseHttp::status400('Todos los campos son necesarios'));
+            }else if (!filter_var($email,FILTER_VALIDATE_EMAIL)){
+                echo json_encode(ResponseHttp::status400('Formato de email invalido'));
+            }  else{
+                UserModel::setEmail($email);
+                UserModel::setPassword($password);
+                echo json_encode(UserModel::login());
+            }
+            exit;
+        }
+    }
+
+
+    final  public  function getAll(string $endpoint){
+        if ($this->method=='get' && $endpoint==$this->route){
+            Security::validateTokenJwt($this->headers,Security::secretKey());
+            echo json_encode(UserModel::getAll());
+            exit;
+        }
+    }
     final  public  function  post(string  $endpoint){
 
         if ($this->method =='post' && $endpoint==$this->route){
+            Security::validateTokenJwt($this->headers,Security::secretKey());
             if (empty($this->data['name']|| empty($this->data['dni']) || empty($this->data["email"])||
                 empty($this->data['rol'])|| empty($this->data['password']) || empty($this->data['confirmPassword']) )){
                 echo json_encode(ResponseHttp::status400('Todos los campos son requeridos'));
